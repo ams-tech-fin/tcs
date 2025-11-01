@@ -4,7 +4,8 @@ Simple terminal color manipulation for Linux/Unix systems using ANSI escape code
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/ams-tech-fin/tcs)](https://goreportcard.com/report/github.com/ams-tech-fin/tcs)
 [![GoDoc](https://godoc.org/github.com/ams-tech-fin/tcs?status.svg)](https://godoc.org/github.com/ams-tech-fin/tcs)
-
+[![GitHub release](https://img.shields.io/github/release/SEUUSUARIO/termcolor.svg)](https://github.com/ams-tech-fin/tcs/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Features
 
 - 🎨 16 colors (8 normal + 8 bright)
