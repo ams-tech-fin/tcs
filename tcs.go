@@ -28,6 +28,8 @@ const (
 	BrightMagenta
 	BrightCyan
 	BrightWhite
+	Orange
+	BrightOrange
 )
 
 // ANSI color codes
@@ -48,6 +50,8 @@ var ansiTextColors = map[Color]string{
 	BrightMagenta: "\033[95m",
 	BrightCyan:    "\033[96m",
 	BrightWhite:   "\033[97m",
+	Orange:        "\033[38;5;208m", // 🟧 Laranja
+	BrightOrange:  "\033[38;5;214m",
 }
 
 var ansiBackgroundColors = map[Color]string{
@@ -67,6 +71,8 @@ var ansiBackgroundColors = map[Color]string{
 	BrightMagenta: "\033[105m",
 	BrightCyan:    "\033[106m",
 	BrightWhite:   "\033[107m",
+	Orange:        "\033[48;5;208m",
+	BrightOrange:  "\033[48;5;214m",
 }
 
 const resetANSI = "\033[0m"
