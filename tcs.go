@@ -121,3 +121,13 @@ func Println(textColor, bgColor Color, text string) {
 	fmt.Println(text)
 	Reset()
 }
+
+// ColorText retorna uma string colorida (apenas texto)
+func ColorText(textColor Color, text string) string {
+	return ansiTextColors[textColor] + text + resetANSI
+}
+
+// ColorTextBG retorna uma string colorida com fundo
+func ColorTextBG(textColor, bgColor Color, text string) string {
+	return ansiBackgroundColors[bgColor] + ansiTextColors[textColor] + text + resetANSI
+}
